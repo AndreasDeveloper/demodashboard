@@ -1,0 +1,70 @@
+.inner-dash-box {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FF9500;
+    // Table Styles
+    .table-bordered {
+      border-radius: 20px;
+      td {
+        height: 60px;
+        width: 200px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-bottom: 15px;
+        &:first-of-type {
+          border-radius: 5px 0px 0px 5px;
+        }
+        &:last-of-type {
+          border-radius: 0px 5px 5px 0px;
+        }
+      }
+    }
+    .table-wrap {
+      margin-top: 20px;
+      padding-left: 0;
+    }
+    .dash-table {
+      text-align: left;
+      td div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span:first-of-type {
+          margin-top: -4px;
+        }
+      }
+    }
+    .text-wrap {
+        align-items: center;
+        justify-content: end;
+        margin-top: 20px;
+        p {
+            margin-left: 10px;
+            padding-top: 15px;
+        }
+    }
+  }
+  .inner-dash-title {
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  // Cards
+  .card-1-details {
+    color: #788090;
+    p {
+      font-weight: 500;
+    }
+    .dot-div {
+      border-radius: 50%;
+      width: 4px;
+      height: 4px;
+      background: #788090;
+      margin: 5px;
+      margin-top: -10px;
+    }
+    .dash-i-box {
+      margin-right: 5px;
+    }
+  }
